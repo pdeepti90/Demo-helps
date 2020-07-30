@@ -1,0 +1,11 @@
+name: "salary rule"
+description: "if salary is > 200000/month then rich employee"
+condition: "employee.salary > 200000"
+actions:
+  - "System.out.println(employee.name +\"is rich\");"
+---
+name: "manager rule"
+description: "if manager name is d and salary<100 , then employees are treated badly "
+condition: "employee.salary < 100 && employee.managerName.equalsIgnoreCase(\"d\")"
+actions:
+  - "System.out.println(employee.managerName + \" treats \" + employee.name +\"very badly\");"
