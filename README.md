@@ -1,5 +1,6 @@
-################################################
+## Demo Project ##
 This project has modules of 
+
 1.jeasy
 2.Hibernate/JPA
 3.ThreadLocal
